@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+  margin: 0px;
+  background: rgb(255, 234, 228);
+  color: 2e3333;
+  font-family: Montserrat, sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: Indie-Flower;
+  font-weight: bold;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+  font-size: 24px;
+  color: rgb(0,0,0);
+}
+a {
+  color: rgb(0,0,0);
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://img4.goodfon.com/wallpaper/nbig/4/1c/mate-water-yerba-mate.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  color: white;
+  background: #00a396;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+
+.card-white {
+  background-color: rgb (255, 234, 228);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(255,255,255);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
